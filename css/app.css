@@ -11,6 +11,14 @@ body {
 .header-nav-link {
     text-transform: uppercase;
     font-weight: 600;
+    color: #000;
+    letter-spacing: .05rem;
+}
+.is-active {
+    color: #0324fc;
+}
+.content {
+    margin: 1rem 0rem;
 }
 
 textarea {
