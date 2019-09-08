@@ -4,7 +4,14 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
-
+.header-nav-subtitle {
+    font-size: 24px;
+    letter-spacing: .05rem;
+}
+.header-nav-link {
+    text-transform: uppercase;
+    font-weight: 600;
+}
 
 textarea {
     width: 100%;
