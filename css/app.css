@@ -19,6 +19,8 @@ body {
 }
 .content {
     margin: 3rem 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
 }
 
 textarea {
