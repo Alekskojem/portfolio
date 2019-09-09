@@ -4,6 +4,10 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
+.h1 {
+    font-size: 22px;
+    letter-spacing: .05rem;
+}
 .header-nav-subtitle {
     font-size: 24px;
     letter-spacing: .05rem;
