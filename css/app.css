@@ -26,6 +26,27 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-size: 18px;
 }
+.contact-form-field {
+    border-radius: .2rem;
+    border-color: #ccc;
+    box-shadow: none;
+    background-color: #FCFCFC;
+}
+.contact-form-field:focus {
+    background-color: #fff;
+    border-color: #ccc;
+    box-shadow: none;
+}
+.contact-submit {
+    padding: 0.5rem 1rem;
+    background-color: #000;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+.contact-submit:hover {
+    background-color: #000;
+    opacity: .8;
+}
 
 textarea {
     width: 100%;
