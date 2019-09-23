@@ -36,7 +36,8 @@
         <p>Send me message Linkedin, or mail me.</p>
         <p>- Aleks</p>
          </div>
-        <form>
+         <!-- Form for contacts -->
+        <form action="//formspree.io/alekskojem@gmail.com" method="POST"/>
       <div class="grid-x">
         <div class="cell medium-6">
           <label for="first-name">First Name</label>
@@ -49,7 +50,9 @@
       </div>
       <div class="row columns">
         <label for="email">Email</label>
-        <input type="text" id="email" class="contact-form-field">
+        <input type="text" id="email" name="_replyto" placeholder="Your Email" class="contact-form-field"/>
+        <input type="hidden" name="_next" value="index.html" />
+        <input type="text" name="_gotcha" style="display:none" />
       </div>
       <div class="row columns">
         <label for="email">Subject</label>
